@@ -1,0 +1,31 @@
+[
+    {
+        "id": "1",
+        "image": "images/image1.jpeg",
+        "name": "Cameroon Pepper Powder",
+        "description": "Good for the blood and bones. It does wonders!",
+        "amount": "N3,000",
+        "rating": {
+            "stars": "svg/4.5-star.svg",
+            "count": "134"
+        }
+    },
+    {
+        "id": "2",
+        "image": "images/image2.jpeg",
+        "name": "Cameroon Pepper Powder",
+        "description": "Good for the blood and bones. It does wonders!",
+        "amount": "N3,000",
+        "rating": {
+            "stars": "svg/4.5-star.svg",
+            "count": "134"
+        }
+    },
+    {
+        "id": "3",
+        "image": "images/image3.jpeg",
+        "name": "Cameroon Pepper Powder",
+        "description": "Good for the blood and bones. It does wonders!",
+        "amount": "N3,000"
+    }
+]

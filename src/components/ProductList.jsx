@@ -28,7 +28,7 @@ const ProductList = () => {
                         return (
                             <div key={product.id} className='bg-white outline outline-1 outline-gray-200 shadow-md hover:shadow-xl rounded-md mb-4'>
                                     <div>
-                                    <img className='w-full h-60 flex-grow-0 object-fill' src={product.image} alt="Product-image" />
+                                    <img className='w-full h-60 object-fill' src={product.image} alt="Product-image" />
                                     </div>
                                     <div className='px-4 py-2'>
                                         <h2 className='text-lg text-[#3A3A3A] font-medium py-1'>{product.name}</h2>

@@ -4,18 +4,18 @@ import { FaSearch } from 'react-icons/fa';
 const Hero = () => {
     return (
         <>
-          <header className="relative bg-cover bg-center h-[40vh] mt-20" style={{ backgroundImage: `url(${heroImage})` }}>
+          <header className="max-w w-full relative bg-cover bg-center h-[40vh] mt-20" style={{ backgroundImage: `url(${heroImage})` }}>
             <div className='absolute inset-0 bg-black opacity-50'></div>
-            <div className='relative z-10 flex items-center justify-center h-full'>
+            <div className='max-w w-full relative z-10 flex items-center justify-center h-full'>
                 <div className='text-center'>
-                    <h1 className='text-3xl font-medium text-white'>What is life without a little spice?</h1>
-                    <p className='mt-4 text-xl text-white font-light'>Shop Chanel today!</p>
+                    <h1 className='text-xl md:text-2xl lg:text-3xl font-medium text-white'>What is life without a little spice?</h1>
+                    <p className='mt-4 text-md md:text-xl text-white font-light'>Shop Chanel today!</p>
                     <div className='flex mt-8 justify-center'>
                         <div className='flex w-full max-w-md'>
-                            <div className='relative focus-within:text-gray-500'>
+                            <div className='relative focus-within:text-gray-500 px-4'>
                                 <input 
                                 type="text" name='search' placeholder='Search'autoComplete='off'
-                                className='pl-12 pr-24 py-3 placeholder-gray-500 placeholder:text-md text-black rounded-xl focus:ring-2 focus:ring-yellow2 focus:outline-none focus-within:'
+                                className='pl-10 pr-16 md:pl-12 md:pr-24 py-3 placeholder-gray-500 placeholder:text-md text-black rounded-xl focus:ring-2 focus:ring-yellow2 focus:outline-none focus-within:'
                                  />
                                  <FaSearch className='absolute w-6 h-6 inset-y-0 m-3' />
                             </div>                       

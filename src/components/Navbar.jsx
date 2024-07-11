@@ -22,11 +22,13 @@ const Navbar = () => {
           <Link to="/" className="pt-3 px-3 font-medium text-[#3A3A3A] hover:text-yellow2 hover:border-b border-b-black">About Us</Link>
           <Link to="/" className="pt-3 px-3 font-medium text-[#3A3A3A] hover:text-yellow2 hover:border-b border-b-black">Contact us</Link>
         </div>
-        <div className="space-x-0 md:flex md:space-x-4">
-          <Link to="/cart" className=" text-gray-500 hover:text-yellow2 content-center">
-          <FaShoppingCart className="space-0 h-6 w-6 md:h-8 md:w-8" />
+        <div className="md:flex md:space-x-4 justify-end">
+          <Link to="/cart" className="text-yellow2 hover:text-[#3A3A3A] md:text-[#3A3A3A] md:hover:text-yellow2 content-center">
+          <FaShoppingCart className="space-0 h-8 w-8" />
           </Link>
-          <Link to="/" className=" hidden outline outline-1 outline-yellow2 text-yellow2 text-nowrap px-3 py-1 md:px-4 md:py-2 rounded-md hover:text-white hover:bg-yellow2">Sign In</Link>
+          <div className="hidden md:flex">
+          <Link to="/" className="outline outline-1 outline-yellow2 text-yellow2 text-nowrap px-3 py-1 md:px-4 md:py-2 rounded-md hover:text-white hover:bg-yellow2">Sign In</Link>
+          </div>
         </div>
         <div className="md:hidden">
           <button onClick={() => setIsOpen((prevState) => !prevState)}>

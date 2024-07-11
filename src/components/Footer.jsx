@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="flex-1 lg:px-12 md:px-6 pr-60">
             <img src={logo} alt="Logo" className="mb-4 w-20 h-20 md:w-32 md:h-32" />
             <p className='text-nowrap'>Stay Updated! Subscribe to our newsletter</p>
-            <div className="mt-2 flex">
+            <div className="my-4 md:mt-2 flex">
                 <input
                 type="email"
                 placeholder="Email address"
@@ -19,7 +19,7 @@ const Footer = () => {
             </button>
             </div>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 my-8">
           <h3 className="mb-4 font-bold">Quick links</h3>
           <ul>
             <li className="mb-2"><a href="#home">Home</a></li>
@@ -27,7 +27,7 @@ const Footer = () => {
             <li className="mb-2"><a href="#export">Export</a></li>
           </ul>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 my-8">
           <h3 className="mb-4 font-bold">About Us</h3>
           <ul>
             <li className="mb-2"><a href="#about">About Us</a></li>

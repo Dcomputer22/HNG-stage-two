@@ -4,14 +4,14 @@ import { FaSearch } from 'react-icons/fa';
 const Hero = () => {
     return (
         <>
-          <header className="max-w w-full relative bg-cover bg-center h-[40vh] mt-20" style={{ backgroundImage: `url(${heroImage})` }}>
+          <header className="overflow-x-hidden w-full relative bg-cover bg-center h-[40vh] mt-20" style={{ backgroundImage: `url(${heroImage})` }}>
             <div className='absolute inset-0 bg-black opacity-50'></div>
             <div className='max-w w-full relative z-10 flex items-center justify-center h-full'>
                 <div className='text-center'>
                     <h1 className='text-xl md:text-2xl lg:text-3xl font-medium text-white'>What is life without a little spice?</h1>
                     <p className='mt-4 text-md md:text-xl text-white font-light'>Shop Chanel today!</p>
                     <div className='flex mt-8 justify-center'>
-                        <div className='flex w-full max-w-md'>
+                        <div className='flex max-w'>
                             <div className='relative focus-within:text-gray-500 px-4'>
                                 <input 
                                 type="text" name='search' placeholder='Search'autoComplete='off'

@@ -4,10 +4,10 @@ import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 const Footer = () => {
     return (
         <footer className="bg-[#483C31] py-8 text-white mt-3">
-            <div className="container mx-auto px-[60px] flex justify-between items-start">
-            <div className="flex-1 px-12 pr-60">
-            <img src={logo} alt="Logo" className="mb-4" />
-            <p>Stay Updated! Subscribe to our newsletter</p>
+            <div className="container lg:mx-auto lg:px-[60px] md:flex md:justify-between md:items-start">
+            <div className="flex-1 lg:px-12 md:px-6 pr-60">
+            <img src={logo} alt="Logo" className="mb-4 w-20 h-20 md:w-32 md:h-32" />
+            <p className='text-nowrap'>Stay Updated! Subscribe to our newsletter</p>
             <div className="mt-2 flex">
                 <input
                 type="email"

@@ -5,7 +5,6 @@ const CheckoutPage = () => {
     return (
         <>
           <CheckoutDescription />
-          <Footer />
         </>
     )
 }

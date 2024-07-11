@@ -2,7 +2,7 @@
     {
         "id": "1",
         "image": "images/image1.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Nacho Cheese Seasoning",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -13,7 +13,7 @@
     {
         "id": "2",
         "image": "images/image2.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Mineral Sea Salt",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -24,7 +24,7 @@
     {
         "id": "3",
         "image": "images/image3.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Chipotle Seasoning",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -35,7 +35,7 @@
     {
         "id": "4",
         "image": "images/image4.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Hot Chilly Pepper",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -46,7 +46,7 @@
     {
         "id": "5",
         "image": "images/image5.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Cimmamon Ground Powder",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -57,7 +57,7 @@
     {
         "id": "6",
         "image": "images/image6.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Veggie Dust Seasoning",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -79,7 +79,7 @@
     {
         "id": "8",
         "image": "images/image8.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Shawarma Spice",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -101,7 +101,7 @@
     {
         "id": "10",
         "image": "images/image10.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Chili Lime",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -112,7 +112,7 @@
     {
         "id": "11",
         "image": "images/image11.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Chipotle Seasoning",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -123,7 +123,7 @@
     {
         "id": "12",
         "image": "images/image12.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Rosemary Seasoning",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -134,7 +134,7 @@
     {
         "id": "13",
         "image": "images/image13.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Chipotle Seasoning",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -145,7 +145,7 @@
     {
         "id": "14",
         "image": "images/image14.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Veggie Dust Seasoning",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -156,7 +156,7 @@
     {
         "id": "15",
         "image": "images/image15.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Nacho Cheese Seasoning",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {
@@ -167,7 +167,7 @@
     {
         "id": "16",
         "image": "images/image16.jpeg",
-        "name": "Cameroon Pepper Powder",
+        "name": "Shawarma Spice",
         "description": "Good for the blood and bones. It does wonders!",
         "amount": "N3,000",
         "rating": {

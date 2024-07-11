@@ -9,7 +9,6 @@ const HomePage = () => {
           <Hero />
           <ProductList />
           <Pagination />
-          <Footer />
         </>
     )
 }

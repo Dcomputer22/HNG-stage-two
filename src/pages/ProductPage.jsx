@@ -7,7 +7,6 @@ const ProductPage = () => {
         <>
           <ProductDescription />
           <ProductOverview />
-          <Footer />
         </>
     )
 }

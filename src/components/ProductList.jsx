@@ -8,26 +8,21 @@ const ProductList = () => {
     return (
         <div className="my-6 mx-16">
             <h1 className="mb-3 text-3xl font-bold text-[#3A3A3A]">Products</h1>
-            <div className="mt-4">
-            <button className="outline outline-1 outline-[#9C9C9C] mr-5 py-1 px-5 rounded-md inline-flex items-center justify-between hover:bg-gray-200">
-                <span className="mr-10">All</span>
-                <span>
-                    <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                    </svg>
-                </span>
-            </button>
-            <button className="outline outline-1 outline-[#9C9C9C] mr-5 py-1 px-5 rounded-md inline-flex items-center justify-between hover:bg-gray-200">
-                <span className="mr-10">Sort by</span>
-                <span>
-                    <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                    </svg>
-                </span>
-            </button>
-            </div>
+            <form className='mt-4'>
+                    <div className='grid grid-cols-2 w-3/4 md:w-1/4'>
+                        <select name="select" className='border border-[#9C9C9C] focus-within:outline-none rounded-md hover:bg-gray-200 py-1 pl-2 mr-4'>
+                            <option >All</option>
+                            <option >Some</option>
+                        </select>
+                        <select name="select" className='border border-[#9C9C9C] focus-within:outline-none rounded-md hover:bg-gray-200 py-1 pl-2 ml-4'>
+                            <option >Sort by</option>
+                            <option >Name</option>
+                            <option >Rating</option>
+                        </select>
+                    </div>
+                </form>
 
-            <div className='my-4 grid grid-cols-4 gap-4 mx-auto'>
+            <div className='my-4 md:grid md:grid-cols-2 md:gap-4  lg:grid lg:grid-cols-4 lg:gap-4 mx-auto'>
                 {
                       Products.map(product => {
                         return (

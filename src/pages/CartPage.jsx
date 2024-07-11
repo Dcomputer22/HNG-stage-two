@@ -5,7 +5,6 @@ const CartPage = () => {
     return (
         <>
           <CartDescription />
-          <Footer />
         </>
     )
 }

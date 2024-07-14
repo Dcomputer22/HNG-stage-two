@@ -6,7 +6,7 @@ import cartIcon from '/svg/cart-outline.svg';
 
 const ProductList = () => {
     return (
-        <div className="my-6 mx-16">
+        <div className="my-6 mx-16 max-w-full">
             <h1 className="mb-3 text-3xl font-bold text-[#3A3A3A]">Products</h1>
             <form className='mt-4'>
                     <div className='grid grid-cols-2 w-3/4 md:w-1/4'>

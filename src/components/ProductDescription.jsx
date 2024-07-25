@@ -9,7 +9,7 @@ const ProductDescription = () => {
           <div className=' mr-10 bg-white outline outline-1 outline-gray-200 drop-shadow-md rounded-xl'>
           <img className='w-[500px] h-[500px]' src={productImage1} alt="Product-image" />
           </div>
-          <div className='mr-10'>
+          <div className='hidden mr-10'>
           <div className=' mb-6 bg-gray-200 outline outline-1 outline-gray-400 rounded-lg'>
           <img className='w-14 h-14' src={productImage1} alt="Product-image" />
           </div>

@@ -8,13 +8,14 @@ const Navbar = () => {
   const [IsOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#FCFCFC] shadow-md fixed z-[100] top-0 left-0 right-0 max-w-full px-4 md:px-[120px] md:h-[80px] content-center">
+    <nav className="bg-[#FCFCFC] shadow-md fixed z-[100] top-0 left-0 right-0 max-w-full px-4 md:px-[30px] md:h-[80px] lg:px-[120px] 
+      lg:h-[80px] content-center">
       <div className="flex justify-between h-20 items-center">
         <div className="flex items-center">
-          <img className="w-[60px] h-[60px]" src={ logo } alt="logo" />
+          <img className="w-[40px] h-[40px] md:w-[60px] md:h-[60px]" src={ logo } alt="logo" />
           <span className="text-2xl md:text-[24px] font-semibold text-yellow2">Chanel</span>
         </div>
-        <div className="hidden md:flex md:space-x-5 ml-10 justify-center lg:space-x-10 md:text-sm lg:text-[16px]">
+        <div className="hidden md:flex md:space-x-2 ml-10 justify-center lg:space-x-10 md:text-sm lg:text-[16px]">
           <Link to="/" className="px-3 font-medium text-[#3A3A3A] hover:text-yellow2 hover:border-b border-b-black">Home</Link>
           <Link to="/products" className="pb-2 px-3 font-medium text-[#3A3A3A] hover:text-yellow2 hover:border-b border-b-black">Products</Link>
           <Link to="/" className="px-3 font-medium text-[#3A3A3A] hover:text-yellow2 hover:border-b border-b-black">About Us</Link>

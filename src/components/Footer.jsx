@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#483C31] py-8 text-white mt-3 max-w-full">
+        <footer className="bg-[#483C31] py-4 md:py-8 text-white mt-3 max-w-full ">
             <div className="container lg:mx-auto lg:px-[60px] md:flex md:justify-between md:items-start">
             <div className="flex-1 lg:px-12 md:px-6 pr-60">
             <img src={logo} alt="Logo" className="mb-4 w-20 h-20 md:w-32 md:h-32" />
@@ -14,7 +14,7 @@ const Footer = () => {
                 placeholder="Email address"
                 className="py-2 px-4 rounded-md border-none mr-4"
                 />
-                <button className="bg-yellow2 text-white px-6 rounded-md hover:bg-yellow2">
+                <button className="bg-yellow2 text-white px-3 md:px-6 rounded-md hover:bg-yellow2">
               Subscribe
             </button>
             </div>

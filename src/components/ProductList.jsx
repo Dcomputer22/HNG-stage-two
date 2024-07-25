@@ -22,7 +22,7 @@ const ProductList = () => {
                     </div>
                 </form>
 
-            <div className='my-4 md:grid md:grid-cols-2 md:gap-4  lg:grid lg:grid-cols-4 lg:gap-4 mx-auto'>
+            <div className='my-4 md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-3 lg:gap-4 xl:grid xl:grid-cols-4 xl:gap-4 mx-auto'>
                 {
                       Products.map(product => {
                         return (
@@ -43,7 +43,7 @@ const ProductList = () => {
                                             <img className='h-6 w-6 mr-4' src={heartIcon} alt="Heart-icon" />
                                             <img className='h-6 w-6' src={cartIcon} alt="Cart-icon" />
                                             </div>
-                                            <Link to='/cart' className='text-[#089244] hover:text-green-700 hover:font-bold'>Buy now</Link>
+                                            <Link to='/products' className='text-[#089244] hover:text-green-700 hover:font-bold'>Buy now</Link>
                                         </div>
                                     </div>
                                 </div>

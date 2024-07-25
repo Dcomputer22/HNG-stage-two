@@ -11,11 +11,11 @@ const Hero = () => {
                     <h1 className='text-xl md:text-2xl lg:text-3xl font-medium text-white'>What is life without a little spice?</h1>
                     <p className='mt-4 text-md md:text-xl text-white font-light'>Shop Chanel today!</p>
                     <div className='flex mt-8 justify-center'>
-                        <div className='flex max-w'>
-                            <div className='relative focus-within:text-gray-500 px-4'>
+                        <div className=' grid grid-cols-1 gap-4 md:flex max-w'>
+                            <div className='relative focus-within:text-gray-500 px-4 flex flex-shrink'>
                                 <input 
                                 type="text" name='search' placeholder='Search'autoComplete='off'
-                                className='w-[312px] h-[49px] pl-10 md:pl-12 md:pr-24 py-3 placeholder-gray-500 placeholder:text-sm text-black rounded-xl focus:ring-2 focus:ring-yellow2 focus:outline-none focus-within:'
+                                className='w-[150px] h-[49px] md:w-[312px] md:h-[49px] pl-10 md:pl-12 md:pr-24 placeholder-gray-500 placeholder:text-sm text-black rounded-xl focus:ring-2 focus:ring-yellow2 focus:outline-none flex-shrink'
                                  />
                                  <FaSearch className='absolute w-6 h-6 inset-y-0 m-3' />
                             </div>                       

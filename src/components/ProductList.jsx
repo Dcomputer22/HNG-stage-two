@@ -9,12 +9,12 @@ const ProductList = () => {
         <div className="my-6 mx-16 max-w-full">
             <h1 className="mb-3 text-3xl font-bold text-[#3A3A3A]">Products</h1>
             <form className='mt-4'>
-                    <div className='grid grid-cols-2 w-3/4 md:w-1/4'>
+                    <div className='grid grid-cols-2 w-3/4 md:w-2/4'>
                         <select name="select" className='border border-[#9C9C9C] focus-within:outline-none rounded-md hover:bg-gray-200 py-1 pl-2 mr-4'>
                             <option >All</option>
                             <option >Some</option>
                         </select>
-                        <select name="select" className='border border-[#9C9C9C] focus-within:outline-none rounded-md hover:bg-gray-200 py-1 pl-2 ml-4'>
+                        <select name="select" className='border border-[#9C9C9C] focus-within:outline-none rounded-md hover:bg-gray-200 py-1 pl-2 w-24 col-span-1 ml-4'>
                             <option >Sort by</option>
                             <option >Name</option>
                             <option >Rating</option>

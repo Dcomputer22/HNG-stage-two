@@ -6,7 +6,7 @@ const Hero = () => {
         <>
           <header className="max-w-full relative bg-cover bg-center mt-20" style={{ backgroundImage: `url(${heroImage})` }}>
             <div className='absolute inset-0 bg-black opacity-50'></div>
-            <div className='max-w w-full relative z-10 flex items-center h-full px-[120px] py-[80px] justify-center'>
+            <div className='max-w w-full relative z-10 flex items-center h-full px-[60px] py-[80px] md:px-[120px] justify-center'>
                 <div className='text-center'>
                     <h1 className='text-xl md:text-2xl lg:text-3xl font-medium text-white'>What is life without a little spice?</h1>
                     <p className='mt-4 text-md md:text-xl text-white font-light'>Shop Chanel today!</p>

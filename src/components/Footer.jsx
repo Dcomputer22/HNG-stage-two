@@ -3,8 +3,8 @@ import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#483C31] py-4 md:py-8 text-white mt-3 max-w-full ">
-            <div className="container lg:mx-auto lg:px-[60px] md:flex md:justify-between md:items-start">
+        <footer className="bg-[#483C31] pb-4 md:py-8 text-white mt-3 max-w-full ">
+            <div className="container pl-4  lg:mx-auto lg:px-[60px] md:flex md:justify-between md:items-start">
             <div className="flex-1 lg:px-12 md:px-6 pr-60">
             <img src={logo} alt="Logo" className="mb-4 w-20 h-20 md:w-32 md:h-32" />
             <p className='text-nowrap'>Stay Updated! Subscribe to our newsletter</p>
@@ -12,9 +12,9 @@ const Footer = () => {
                 <input
                 type="email"
                 placeholder="Email address"
-                className="py-2 px-4 rounded-md border-none mr-4"
+                className="py-2 px-2 md:px-4 rounded-md border-none mr-4"
                 />
-                <button className="bg-yellow2 text-white px-3 md:px-6 rounded-md hover:bg-yellow2">
+                <button className="bg-yellow2 text-white px-2 md:px-6 rounded-md">
               Subscribe
             </button>
             </div>
